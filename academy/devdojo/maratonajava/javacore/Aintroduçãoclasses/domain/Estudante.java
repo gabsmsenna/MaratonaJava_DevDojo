@@ -1,9 +1,12 @@
 package academy.devdojo.maratonajava.javacore.Aintroduçãoclasses.domain;
 
 public class Estudante {
-    public String nome = "Zoro";
+    public String nome;
     public int idade;
     public char sexo;
 
-
+    public void imprime() {
+        System.out.println(nome);
+    }
 }
+
