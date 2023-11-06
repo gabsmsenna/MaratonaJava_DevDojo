@@ -41,4 +41,12 @@ public class Calculadora {
         }
         System.out.println(soma);
     }
+
+    public void somaVarArgs(int...numeros) { //Aqui, na "varags" a JVM pega o que tiver dentro dessa variável números, e transforma em um array
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
