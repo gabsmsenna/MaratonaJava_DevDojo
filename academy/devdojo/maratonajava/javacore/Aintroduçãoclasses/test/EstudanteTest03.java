@@ -16,6 +16,7 @@ public class EstudanteTest03 {
         estudante2.sexo = 'M';
 
         estudante.imprime();
+        System.out.println("************************************");
         estudante2.imprime();
     }
 }
