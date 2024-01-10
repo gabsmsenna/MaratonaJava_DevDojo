@@ -1,13 +1,32 @@
-package academy.devdojo.maratonajava.javacore.Csobrecargademétodos.Domain;
+package academy.devdojo.maratonajava.javacore.Dconstrutores.domain;
 
 public class Anime {
     private String nome;
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
-    public Anime () { //Construtor padrão, que o Java cria automaticamente no momento da compilação, caso eu não adicione um construtor
+    /*
+            public Anime () {   Construtor padrão, que o Java cria automaticamente no momento da compilação, caso eu não adicione um construtor
 
+            }
+      */
+    public Anime(String nome, String tipo, int episodios, String genero) {
+        this(); //Chamando o construtor padrão abaixo, dentro de um outro construtor
+        this.nome = nome;
+        this.tipo = tipo;
+        this.episodios = episodios;
+        this.genero = genero;
+    }
+
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio) {
+        this(nome, tipo, episodios, estudio); //Chamando o construtor acima, dentro deste construtor. Sobrecarga de construtorees
+        this.estudio = estudio;
+    }
+
+    public Anime() {
+        System.out.println("Dentro do construtor sem argumento");
     }
 
     public void init(String nome, String tipo, int episodios) {
@@ -17,7 +36,7 @@ public class Anime {
     }
 
     public void init(String nome, String tipo, int episodios, String genero) { //Aqui é demonstrado uma sobrecarga de métodos, que é o mesmo método, com o mesmo nome
-        this.init(nome,tipo,episodios);                                                      // Mas com assinatura diferente e quantidade de parâmetros ou tipo de parâmetros diferentes
+        this.init(nome, tipo, episodios);                                                      // Mas com assinatura diferente e quantidade de parâmetros ou tipo de parâmetros diferentes
         this.genero = genero;
     }
 
@@ -26,6 +45,7 @@ public class Anime {
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     public void setTipo(String tipo) {
