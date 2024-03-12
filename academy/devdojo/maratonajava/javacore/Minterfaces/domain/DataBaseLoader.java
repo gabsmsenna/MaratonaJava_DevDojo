@@ -1,6 +1,4 @@
-package academy.devdojo.maratonajava.Minterfaces.domain;
-
-import academy.devdojo.maratonajava.Minterfaces.domain.DataLoader;
+package academy.devdojo.maratonajava.javacore.Minterfaces.domain;
 
 public class DataBaseLoader implements DataLoader, DataRemover {
     @Override

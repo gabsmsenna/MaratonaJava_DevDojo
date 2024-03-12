@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Minterfaces.domain;
+package academy.devdojo.maratonajava.javacore.Minterfaces.domain;
 
 public interface DataLoader {
     void load(); //todos os metodos em uma INTERFACE sao public e abstratct
