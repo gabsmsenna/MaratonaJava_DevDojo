@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.exercícios;
+package academy.devdojo.maratonajava.exercícios.domain;
 
 import academy.devdojo.maratonajava.exercícios.domain.Aluno;
 import academy.devdojo.maratonajava.exercícios.domain.Local;
