@@ -1,6 +1,6 @@
 package academy.nelioalves.cursojava.ExercíciosPraticos.POO.Exercícios_Básicos.test;
 
-import academy.nelioalves.cursojava.ExercíciosPraticos.POO.Exercícios_Básicos.domain.Aluno;
+import academy.nelioalves.cursojava.ExercíciosPraticos.POO.Exercícios_Básicos.domain.OrientaçãoObjetos.Aluno;
 
 import java.util.Scanner;
 

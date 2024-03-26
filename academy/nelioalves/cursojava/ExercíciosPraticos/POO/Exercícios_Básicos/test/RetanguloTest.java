@@ -1,6 +1,6 @@
 package academy.nelioalves.cursojava.ExercíciosPraticos.POO.Exercícios_Básicos.test;
 
-import academy.nelioalves.cursojava.ExercíciosPraticos.POO.Exercícios_Básicos.domain.Retangulo;
+import academy.nelioalves.cursojava.ExercíciosPraticos.POO.Exercícios_Básicos.domain.OrientaçãoObjetos.Retangulo;
 
 import java.util.Scanner;
 
