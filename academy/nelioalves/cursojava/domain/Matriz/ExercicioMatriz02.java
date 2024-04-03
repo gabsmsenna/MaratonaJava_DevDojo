@@ -23,6 +23,9 @@ public class ExercicioMatriz02 {
             }
         }
 
+        // novo comm
+        // ent para testes
+
         System.out.println("\n See the representation of your matrix below");
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
