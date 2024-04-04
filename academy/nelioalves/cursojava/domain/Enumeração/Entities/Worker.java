@@ -3,6 +3,7 @@ package academy.nelioalves.cursojava.domain.Enumeração.Entities;
 import academy.nelioalves.cursojava.domain.Enumeração.Entitie.Enum.WorkerLevel;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class Worker {
@@ -15,6 +16,7 @@ public class Worker {
 
     public Worker() {
     }
+
 
     public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
         this.name = name;
@@ -31,6 +33,22 @@ public class Worker {
         contracts.remove(contract);
     }
 
+    public double income ( int year, int month) {
+        double sum = baseSalary;
+        Calendar calendar = Calendar.getInstance();
+
+        for (Hour_Contract contract : contracts) {
+            calendar.setTime(contract.getDate());
+
+            int contract_year = calendar.get(Calendar.YEAR);
+            int contract_month = 1 + calendar.get(Calendar.MONTH);
+
+            if (year == contract_year && month == contract_month) {
+                sum += contract.totalValue();
+            }
+        }
+        return sum;
+    }
 
     public String getName() {
         return name;
@@ -66,9 +84,5 @@ public class Worker {
 
     public List<Hour_Contract> getContracts() {
         return contracts;
-    }
-
-    public void setContracts(List<Hour_Contract> contracts) {
-        this.contracts = contracts;
     }
 }
