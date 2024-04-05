@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.Enumeração.Entities;
+package academy.nelioalves.cursojava.domain.Enumeração.Exercício01.Entities;
 
 import java.util.Date;
 

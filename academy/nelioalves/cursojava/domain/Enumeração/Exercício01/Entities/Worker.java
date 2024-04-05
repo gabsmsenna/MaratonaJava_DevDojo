@@ -1,6 +1,6 @@
-package academy.nelioalves.cursojava.domain.Enumeração.Entities;
+package academy.nelioalves.cursojava.domain.Enumeração.Exercício01.Entities;
 
-import academy.nelioalves.cursojava.domain.Enumeração.Entitie.Enum.WorkerLevel;
+import academy.nelioalves.cursojava.domain.Enumeração.Exercício01.Enum.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -10,13 +10,11 @@ public class Worker {
     private String name;
     private WorkerLevel level;
     private Double baseSalary;
-
     private Department department;
     private List<Hour_Contract> contracts = new ArrayList<>();
 
     public Worker() {
     }
-
 
     public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
         this.name = name;
