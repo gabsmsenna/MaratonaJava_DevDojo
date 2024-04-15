@@ -13,8 +13,8 @@ public class OrderItem {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(product.getName() + " ");
-        sb.append(product.getPrice() + " ");
+        sb.append(product.getName() + ", $");
+        sb.append(String.format("%.2f", price));
         sb.append("Quantity: " + quantity + " ");
         sb.append("Subtotal: " + subTotal());
         return sb.toString();
