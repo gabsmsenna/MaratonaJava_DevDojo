@@ -25,18 +25,18 @@ public class Program {
             System.out.print("Rectangle or Circle? (r/c)? ");
             char shape = scan.next().charAt(0);
             System.out.print("Color (BLACK/BLUE/RED): ");
-            String color = scan.next();
+            Color color = Color.valueOf(scan.next());
 
             if (shape == 'r') {
                 System.out.print("Width: ");
                 double width = scan.nextDouble();
                 System.out.println("Height: ");
                 double height = scan.nextDouble();
-                shapes.add(new Rectangle (Color.valueOf(color), height, width));
+                shapes.add(new Rectangle (color, height, width));
             } else if (shape == 'c') {
                 System.out.print("Radius: ");
                 double radius = scan.nextDouble();
-                shapes.add(new Circle( Color.valueOf(color), radius));
+                shapes.add(new Circle( color, radius));
             }
 
         }
