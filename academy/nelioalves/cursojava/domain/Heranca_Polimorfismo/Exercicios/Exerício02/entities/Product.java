@@ -5,7 +5,7 @@ public class Product {
     private Double price;
 
     public String priceTag() {
-        return name + String.format("%.2f", price);
+        return name + " $ " + String.format("%.2f", price);
     }
 
     public Product(String name, Double price) {
