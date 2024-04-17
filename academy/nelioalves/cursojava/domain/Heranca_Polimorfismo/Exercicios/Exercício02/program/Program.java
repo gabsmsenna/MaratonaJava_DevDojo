@@ -1,8 +1,8 @@
-package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício02.program;
+package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício02.program;
 
-import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício02.entities.ImportedProduct;
-import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício02.entities.Product;
-import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício02.entities.UsedProduct;
+import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício02.entities.ImportedProduct;
+import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício02.entities.Product;
+import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício02.entities.UsedProduct;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício02.entities;
+package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício02.entities;
 
 public class Product {
     private String name;

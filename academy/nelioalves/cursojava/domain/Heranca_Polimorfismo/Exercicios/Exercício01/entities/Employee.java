@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício01.entities;
+package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício01.entities;
 
 public class Employee {
     private String name;

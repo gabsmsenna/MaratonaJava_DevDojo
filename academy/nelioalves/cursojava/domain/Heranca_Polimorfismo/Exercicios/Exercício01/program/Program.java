@@ -1,7 +1,7 @@
-package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício01.program;
+package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício01.program;
 
-import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício01.entities.Employee;
-import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício01.entities.OutsourcedEmployee;
+import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício01.entities.Employee;
+import academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício01.entities.OutsourcedEmployee;
 
 import java.io.IOException;
 import java.util.ArrayList;

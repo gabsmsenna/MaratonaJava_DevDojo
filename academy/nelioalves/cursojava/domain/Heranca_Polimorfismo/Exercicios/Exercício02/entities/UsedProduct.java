@@ -1,8 +1,7 @@
-package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exerício02.entities;
+package academy.nelioalves.cursojava.domain.Heranca_Polimorfismo.Exercicios.Exercício02.entities;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class UsedProduct extends Product {
     private LocalDate manufactureDate;
