@@ -16,8 +16,6 @@ public class NaturalPerson extends Person {
         this.healthExpenditures = healthExpenditures;
     }
 
-
-
     @Override
     public Double taxesPaid() {
         if (getAnualIncome() < 20000.0) {

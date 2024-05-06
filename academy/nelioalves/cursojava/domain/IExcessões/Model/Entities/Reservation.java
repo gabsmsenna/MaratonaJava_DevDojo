@@ -1,4 +1,6 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.IExcessões.Model.Entities;
+package academy.nelioalves.cursojava.domain.Excessões.Model.Entities;
+
+import academy.nelioalves.cursojava.domain.Excessões.Model.Exceptions.DomainException;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -18,7 +20,10 @@ public class Reservation {
 
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-    public Reservation(Integer roomNumber, Date checkin, Date checkout) {
+    public Reservation(Integer roomNumber, Date checkin, Date checkout) throws DomainException {
+        if (!checkout.after(checkin)) {
+            throw new DomainException("Check-out date must be after check-in date");
+        }
         this.roomNumber = roomNumber;
         this.checkin = checkin;
         this.checkout = checkout;
@@ -29,18 +34,19 @@ public class Reservation {
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
-    public void updateDates(Date checkin, Date checkout) {
+    public String updateDates(Date checkin, Date checkout) throws DomainException {
 
         Date now = new Date();
         if (checkin.before(now) || checkout.before(now)){
-            throw new IllegalArgumentException("Reservation dates for update must be future");
+            throw new DomainException("Reservation dates for update must be future");
         }
 
         if (!checkout.after(checkin)) {
-           throw new IllegalArgumentException("Reservation dates must be after checkout");
+           throw new DomainException("Reservation dates must be after checkout");
         }
         this.checkin = checkin;
         this.checkout = checkout;
+        return null;
     }
 
     @Override
