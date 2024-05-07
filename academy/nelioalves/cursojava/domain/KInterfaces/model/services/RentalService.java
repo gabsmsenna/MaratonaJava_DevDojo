@@ -1,7 +1,7 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.KInterfaces.model.services;
+package academy.nelioalves.cursojava.domain.KInterfaces.model.services;
 
-import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.KInterfaces.model.entities.CarRental;
-import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.KInterfaces.model.entities.Invoice;
+import academy.nelioalves.cursojava.domain.KInterfaces.model.entities.CarRental;
+import academy.nelioalves.cursojava.domain.KInterfaces.model.entities.Invoice;
 
 import java.time.Duration;
 
@@ -9,9 +9,9 @@ public class RentalService {
 
     private Double pricePerDay;
     private Double pricePerHour;
-    private BrazilTaxService taxService;
+    private TaxService taxService;
 
-    public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+    public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) {
         this.pricePerDay = pricePerDay;
         this.pricePerHour = pricePerHour;
         this.taxService = taxService;
@@ -48,11 +48,11 @@ public class RentalService {
         this.pricePerHour = pricePerHour;
     }
 
-    public BrazilTaxService getTaxService() {
+    public TaxService getTaxService() {
         return taxService;
     }
 
-    public void setTaxService(BrazilTaxService taxService) {
+    public void setTaxService(TaxService taxService) {
         this.taxService = taxService;
     }
 }

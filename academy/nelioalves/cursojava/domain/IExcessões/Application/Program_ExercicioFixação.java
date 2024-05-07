@@ -1,7 +1,8 @@
-package academy.nelioalves.cursojava.domain.Excessões.Application;
+package academy.nelioalves.cursojava.domain.IExcessões.Application;
 
-import academy.nelioalves.cursojava.domain.Excessões.Model.Entities.Account_ExercicioFixação;
+
 import academy.nelioalves.cursojava.domain.Excessões.Model.Exceptions.DomainException_ExercicioFixação;
+import academy.nelioalves.cursojava.domain.IExcessões.Model.Entities.Account_ExercicioFixação;
 
 import java.util.Scanner;
 

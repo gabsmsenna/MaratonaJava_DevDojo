@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.Excessões.Model.Entities;
+package academy.nelioalves.cursojava.domain.IExcessões.Model.Entities;
 
 import academy.nelioalves.cursojava.domain.Excessões.Model.Exceptions.DomainException_ExercicioFixação;
 
