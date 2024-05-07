@@ -12,16 +12,16 @@ public class IO {
        List<Product> list = new ArrayList<>();
 
         System.out.println("Enter file path: ");
-        String sourceFile = scanner.nextLine();
+        String sourceFileStr = scanner.nextLine();
 
-        File source = new File(sourceFile);
-        String sourceFolderStr = source.getParent();
+        File sourceFile = new File(sourceFileStr);
+        String sourceFolderStr = sourceFile.getParent();
 
         boolean success = new File(sourceFolderStr + "/out").mkdir();
 
         String targetFileStr = sourceFolderStr + "/out/summary.csv";
 
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(sourceFile))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(sourceFileStr))) {
             String itemCsv = bufferedReader.readLine();
             while (itemCsv != null) {
                 String[] fields = itemCsv.split(",");
