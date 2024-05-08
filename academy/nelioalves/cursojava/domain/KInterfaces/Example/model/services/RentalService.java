@@ -1,7 +1,7 @@
-package academy.nelioalves.cursojava.domain.KInterfaces.model.services;
+package academy.nelioalves.cursojava.domain.KInterfaces.Example.model.services;
 
-import academy.nelioalves.cursojava.domain.KInterfaces.model.entities.CarRental;
-import academy.nelioalves.cursojava.domain.KInterfaces.model.entities.Invoice;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example.model.entities.CarRental;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example.model.entities.Invoice;
 
 import java.time.Duration;
 
@@ -32,27 +32,5 @@ public class RentalService {
         carRental.setInvoice(new Invoice(basicPayment, tax));
     }
 
-    public Double getPricePerDay() {
-        return pricePerDay;
-    }
 
-    public void setPricePerDay(Double pricePerDay) {
-        this.pricePerDay = pricePerDay;
-    }
-
-    public Double getPricePerHour() {
-        return pricePerHour;
-    }
-
-    public void setPricePerHour(Double pricePerHour) {
-        this.pricePerHour = pricePerHour;
-    }
-
-    public TaxService getTaxService() {
-        return taxService;
-    }
-
-    public void setTaxService(TaxService taxService) {
-        this.taxService = taxService;
-    }
 }

@@ -1,9 +1,9 @@
-package academy.nelioalves.cursojava.domain.KInterfaces.program;
+package academy.nelioalves.cursojava.domain.KInterfaces.Example.program;
 
-import academy.nelioalves.cursojava.domain.KInterfaces.model.entities.CarRental;
-import academy.nelioalves.cursojava.domain.KInterfaces.model.entities.Vehicle;
-import academy.nelioalves.cursojava.domain.KInterfaces.model.services.BrazilTaxService;
-import academy.nelioalves.cursojava.domain.KInterfaces.model.services.RentalService;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example.model.entities.CarRental;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example.model.entities.Vehicle;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example.model.services.BrazilTaxService;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example.model.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

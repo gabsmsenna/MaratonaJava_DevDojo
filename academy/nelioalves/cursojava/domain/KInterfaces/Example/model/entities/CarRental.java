@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.KInterfaces.model.entities;
+package academy.nelioalves.cursojava.domain.KInterfaces.Example.model.entities;
 
 import java.time.LocalDateTime;
 

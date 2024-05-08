@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.KInterfaces.model.services;
+package academy.nelioalves.cursojava.domain.KInterfaces.Example.model.services;
 
 public class BrazilTaxService implements TaxService {
 
