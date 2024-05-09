@@ -1,8 +1,9 @@
 package academy.nelioalves.cursojava.domain.KInterfaces.Example2.model;
 
 import academy.nelioalves.cursojava.domain.KInterfaces.Example2.model.Enum.Color;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example2.model.Interfaces.Shape;
 
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
     private double width;
     private double height;
 

@@ -1,16 +1,13 @@
 package academy.nelioalves.cursojava.domain.KInterfaces.Example2.model;
 
 import academy.nelioalves.cursojava.domain.KInterfaces.Example2.model.Enum.Color;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example2.model.Interfaces.Shape;
 
-public class Shape {
+public abstract class AbstractShape implements Shape {
     private Color color;
 
-    public Shape(Color color) {
+    public AbstractShape(Color color) {
         this.color = color;
-    }
-
-    public double area() {
-        return 0;
     }
 
     public Color getColor() {
@@ -20,5 +17,4 @@ public class Shape {
     public void setColor(Color color) {
         this.color = color;
     }
-
 }

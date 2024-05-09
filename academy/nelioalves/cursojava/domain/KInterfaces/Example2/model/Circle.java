@@ -1,8 +1,9 @@
 package academy.nelioalves.cursojava.domain.KInterfaces.Example2.model;
 
 import academy.nelioalves.cursojava.domain.KInterfaces.Example2.model.Enum.Color;
+import academy.nelioalves.cursojava.domain.KInterfaces.Example2.model.Interfaces.Shape;
 
-public class Circle extends Shape {
+public class Circle extends AbstractShape {
     private double radius;
 
     public Circle(Color color, double radius) {
