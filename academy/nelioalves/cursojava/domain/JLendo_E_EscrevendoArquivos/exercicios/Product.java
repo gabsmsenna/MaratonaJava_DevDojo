@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.Lendo_E_EscrevendoArquivos.exercicios;
+package academy.nelioalves.cursojava.domain.JLendo_E_EscrevendoArquivos.exercicios;
 
 public class Product {
     public String name;

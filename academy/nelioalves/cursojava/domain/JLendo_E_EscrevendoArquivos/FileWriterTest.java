@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.Lendo_E_EscrevendoArquivos;
+package academy.nelioalves.cursojava.domain.JLendo_E_EscrevendoArquivos;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
