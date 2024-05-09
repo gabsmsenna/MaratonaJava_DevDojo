@@ -3,7 +3,7 @@ package academy.nelioalves.cursojava.domain.KInterfaces.ExercicioFixacao.model.s
 public class PayPalService implements PaymentService {
     @Override
     public double paymentFee(Double amount) {
-        return amount += amount * 0.01;
+        return amount += amount * 0.02;
     }
 
     @Override

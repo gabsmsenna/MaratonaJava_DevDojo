@@ -3,6 +3,7 @@ package academy.nelioalves.cursojava.domain.KInterfaces.ExercicioFixacao.program
 import academy.nelioalves.cursojava.domain.KInterfaces.ExercicioFixacao.model.entities.Contract;
 import academy.nelioalves.cursojava.domain.KInterfaces.ExercicioFixacao.model.entities.Installment;
 import academy.nelioalves.cursojava.domain.KInterfaces.ExercicioFixacao.model.services.ContractService;
+import academy.nelioalves.cursojava.domain.KInterfaces.ExercicioFixacao.model.services.PayPalService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -27,7 +28,7 @@ public class Program {
 
         Contract contract = new Contract(contractValue, numeroContrato,date);
 
-        ContractService contractService = new ContractService(null);
+        ContractService contractService = new ContractService(new PayPalService());
         contractService.processContract(contract, numberInstallment);
 
 
