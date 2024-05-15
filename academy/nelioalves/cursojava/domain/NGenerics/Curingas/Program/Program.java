@@ -21,8 +21,6 @@ public class Program {
         System.out.println("Total area: " + totalArea(myCircles));
 
         System.out.println("Total area: " + totalArea(myShapes));
-
-
     }
 
     public static double totalArea(List<? extends Shape> shapes) {
