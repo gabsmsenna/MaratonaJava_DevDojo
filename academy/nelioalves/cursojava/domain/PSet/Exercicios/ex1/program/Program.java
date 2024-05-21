@@ -1,6 +1,6 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.PSet.Exercicio.program;
+package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.PSet.Exercicios.ex1.program;
 
-import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.PSet.Exercicio.entities.LogEntry;
+import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.PSet.Exercicios.ex1.entities.LogEntry;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

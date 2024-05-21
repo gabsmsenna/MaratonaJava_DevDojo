@@ -1,6 +1,5 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.PSet.Exercicio.entities;
+package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.PSet.Exercicios.ex1.entities;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
