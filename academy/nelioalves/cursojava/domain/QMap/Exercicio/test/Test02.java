@@ -1,6 +1,6 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap;
+package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Exercicio.test;
 
-import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.entities.Product;
+import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Exercicio.entities.Product;
 
 import java.util.HashMap;
 import java.util.Map;

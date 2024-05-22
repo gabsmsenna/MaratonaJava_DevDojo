@@ -1,4 +1,4 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.entities;
+package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Exercicio.entities;
 
 import java.util.Objects;
 

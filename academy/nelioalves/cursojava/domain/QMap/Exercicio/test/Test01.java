@@ -1,4 +1,4 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap;
+package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Exercicio.test;
 
 import java.util.Map;
 import java.util.TreeMap;
