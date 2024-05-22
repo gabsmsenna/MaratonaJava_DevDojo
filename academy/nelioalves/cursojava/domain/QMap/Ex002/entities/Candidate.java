@@ -1,6 +1,5 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Ex002.entities;
+package academy.nelioalves.cursojava.domain.QMap.Ex002.entities;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 public class Candidate {

@@ -1,6 +1,6 @@
-package Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Ex002.program;
+package academy.nelioalves.cursojava.domain.QMap.Ex002.program;
 
-import Repositorio_Estudos_JAVA.academy.nelioalves.cursojava.domain.QMap.Ex002.entities.Candidate;
+import academy.nelioalves.cursojava.domain.QMap.Ex002.entities.Candidate;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.TreeMap;
 
 public class Program {
     public static void main(String[] args) {
