@@ -1,7 +1,7 @@
-package academy.nelioalves.cursojava.domain.SFuncional;
+package academy.nelioalves.cursojava.domain.SFuncional.Predicate;
 
 import academy.nelioalves.cursojava.domain.RComparator.entities.Product;
-import academy.nelioalves.cursojava.domain.SFuncional.util.ProductPredicate;
+import academy.nelioalves.cursojava.domain.SFuncional.Predicate.util.ProductPredicate;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package academy.nelioalves.cursojava.domain.SFuncional.util;
+package academy.nelioalves.cursojava.domain.SFuncional.Predicate.util;
 
 import academy.nelioalves.cursojava.domain.RComparator.entities.Product;
 

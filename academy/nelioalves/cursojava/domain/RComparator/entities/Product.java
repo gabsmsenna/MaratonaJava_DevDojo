@@ -11,10 +11,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return String.format("%s, %.2f", this.name, this.price);
     }
 
     public static boolean staticProductPredicate(Product p) {
@@ -23,6 +20,14 @@ public class Product {
 
     public boolean nonStaticProductPredicate() {
         return price >= 100.0;
+    }
+
+    public static void staticPriceUpdate(Product p) {
+        p.setPrice(p.getPrice() *1.1);
+    }
+
+    public void nonStaticPriceUpdate() {
+        price = price * 1.1;
     }
 
     public String getName() {
