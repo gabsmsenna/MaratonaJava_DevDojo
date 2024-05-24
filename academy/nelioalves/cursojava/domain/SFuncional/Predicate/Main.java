@@ -10,6 +10,11 @@ import java.util.function.Predicate;
 public class Main {
     public static void main(String[] args) {
 
+        /*
+        Fazer um programa que, a partir de uma lista de produtos,
+        remova da lista somente aqueles cujo preço mínimo seja 100
+         */
+
         List<Product> list = new ArrayList<>();
 
         list.add(new Product("TV", 900.00));

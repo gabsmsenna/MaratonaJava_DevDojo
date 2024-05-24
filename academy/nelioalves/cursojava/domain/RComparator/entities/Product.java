@@ -1,5 +1,7 @@
 package academy.nelioalves.cursojava.domain.RComparator.entities;
 
+import java.util.List;
+
 public class Product {
     private String name;
     private Double price;
@@ -28,6 +30,14 @@ public class Product {
 
     public void nonStaticPriceUpdate() {
         price = price * 1.1;
+    }
+
+    public static String staticUpperCaseName(Product p) {
+        return p.getName().toUpperCase();
+    }
+
+    public String nonStaticUpperCaseName() {
+        return name.toUpperCase();
     }
 
     public String getName() {

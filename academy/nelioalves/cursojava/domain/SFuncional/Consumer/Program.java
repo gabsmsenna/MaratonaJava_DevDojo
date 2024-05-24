@@ -10,6 +10,10 @@ import java.util.function.Consumer;
 public class Program {
     public static void main(String[] args) {
 
+        /*
+        Fazer um progrma que, a partir de uma lista de produtos, aumente o preço dos produtos em 10%
+         */
+
         List<Product> list = new ArrayList<>();
 
         list.add(new Product("TV", 900.00));
@@ -29,7 +33,7 @@ public class Program {
 
         list.forEach(cons);
 
-        list.forEach(p.setPrice(p.getPrice() * 1.1));
+        list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
 
        list.forEach(System.out::println);
 
